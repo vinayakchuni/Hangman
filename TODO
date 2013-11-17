@@ -1,0 +1,11 @@
+TBD
+==========
+
+ - Show a list of already guessed letters
+ - Ability to specify the difficulty level: {easy, medium, hard}
+ - Time limit on the game
+ - Encrypt the words.txt file; decrypt on start
+ - Guessing an already guessed letter shouldn't result in the player's allowed
+   number of guesses getting decremented
+ - Ability to specify the location of the words database, if not present in the
+   current directory
