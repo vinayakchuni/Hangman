@@ -16,4 +16,4 @@ Running
 
 Use the following command to run the application:
 
-    $ python ps2_hangman.py
+    $ python hangman.py
