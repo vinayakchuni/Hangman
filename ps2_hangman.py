@@ -64,18 +64,6 @@ while (i<(len(chosen_word))) and len(chosen_word)+2-j>0:
             
     print ''.join(g)
             
-
-                
-                    
-            
-            
-            
-        
-    
-        
-    
-    
-
 if chosen_word==''.join(g):
     print"Congratulations, you won!!"
 
