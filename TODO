@@ -1,7 +1,7 @@
 TBD
 ==========
 
- - Show a list of already guessed letters
+ - Show a list of already guessed letters: DONE
  - Ability to specify the difficulty level: {easy, medium, hard}
  - Time limit on the game
  - Encrypt the words.txt file; decrypt on start

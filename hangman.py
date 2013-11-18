@@ -41,6 +41,7 @@ def main():
   print "Welcome to the game Hangman!  I am thinking of a word that is " + str(len(chosen_word)) + " letters long"
   
   available_letters = "abcdefghijklmnopqrstuvxywz"
+  guessed_letters = ""
   h, i, j = 0, 0, 0
   d = ""
   for p in range(len(chosen_word)):
@@ -51,6 +52,7 @@ def main():
   while (i<(len(chosen_word))) and len(chosen_word)+2-j>0:
       print " You have " + str(len(chosen_word)+2-j) + " available guesses"
       print "Available letters are : " + available_letters
+      print "Guessed letters are : " + guessed_letters
       a=raw_input('Enter your guess: ')
       j=j+1
       for k in range(len(chosen_word)):
@@ -58,6 +60,7 @@ def main():
               i = i+1
               h = h+1
               available_letters = available_letters.replace(a,"")
+              guessed_letters += (a if a not in guessed_letters else "")
               if h==1:
                   print "Good Guess"
               g[k]=a
