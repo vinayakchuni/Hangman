@@ -9,3 +9,4 @@ TBD
    number of guesses getting decremented
  - Ability to specify the location of the words database, if not present in the
    current directory
+ - Exit gracefully when the words database is empty
